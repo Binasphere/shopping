@@ -1,4 +1,4 @@
-/* Sokoni — shared behaviour: catalog, cart, drawer, nav, reveal */
+/* VentiRetail — shared behaviour: catalog, cart, drawer, nav, reveal */
 
 const CATALOG = [
   { id: 'p01', name: 'Ceramic Coffee Mug', cat: 'home', price: 950, img: 'mug' },
@@ -24,7 +24,7 @@ const imgSrc = p => 'assets/products/' + p.img + '.jpg';
 /* ---------- cart store ---------- */
 
 const Cart = {
-  key: 'sokoni.cart',
+  key: 'ventiretail.cart',
   read() {
     try { return JSON.parse(localStorage.getItem(this.key)) || {}; }
     catch (e) { return {}; }
