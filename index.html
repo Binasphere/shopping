@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" class="snap">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sokoni | Everyday goods, Nairobi</title>
+<meta name="description" content="Sokoni is a Nairobi retail store for everyday home, pantry, carry and care goods.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Sokoni<span>.</span></a>
+
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn menu-toggle" data-menu aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <button class="icon-btn" data-cart-open aria-label="Bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 7h12l1.2 12.2a1.5 1.5 0 0 1-1.5 1.8H6.3a1.5 1.5 0 0 1-1.5-1.8L6 7Z"/>
+          <path d="M9 10V6.5a3 3 0 0 1 6 0V10"/>
+        </svg>
+        <span class="count" data-cart-count hidden>0</span>
+      </button>
+      <a class="icon-btn" href="login.html" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8.5" r="3.5"/>
+          <path d="M4.5 20a7.5 7.5 0 0 1 15 0"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- Hero -->
+  <section class="section hero hero-full" id="top">
+    <div class="wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Nairobi, Kenya</p>
+        <h1>Everyday goods, chosen well.</h1>
+        <p class="lede">A small retail store stocking home, pantry, carry and care essentials from Kenyan makers and farms.</p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="products.html">Shop products</a>
+          <a class="btn btn-outline" href="#collections">Browse aisles</a>
+        </div>
+        <p class="hero-note">Free delivery within Nairobi over KSh 3,000</p>
+      </div>
+    </div>
+
+    <a class="scroll-cue" href="#collections">
+      Scroll
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- Collections -->
+  <section class="section section-alt" id="collections">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Aisles</p>
+        <h2>Four shelves, nothing spare.</h2>
+        <p class="lede">Each shelf is kept short on purpose. We stock what a household actually reaches for.</p>
+      </div>
+
+      <div class="grid-4">
+        <a class="tile reveal" href="products.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></svg>
+          <h3>Home</h3>
+          <p>Ceramics, woven baskets and wooden pieces for the table.</p>
+          <span class="tile-foot">3 items</span>
+        </a>
+        <a class="tile reveal" href="products.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h9a3 3 0 0 1 0 6h-1"/><path d="M6 8v6a4 4 0 0 0 4 4h1a4 4 0 0 0 4-4"/><path d="M5 21h13"/></svg>
+          <h3>Pantry</h3>
+          <p>Coffee, tea, honey, oil and nuts from local farms.</p>
+          <span class="tile-foot">6 items</span>
+        </a>
+        <a class="tile reveal" href="products.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <h3>Carry</h3>
+          <p>Leather and canvas goods made to be used daily.</p>
+          <span class="tile-foot">2 items</span>
+        </a>
+        <a class="tile reveal" href="products.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 3.5 4.5 6 4.5 8.5a4.5 4.5 0 0 1-9 0C7.5 9 9 6.5 12 3Z"/><path d="M12 21v-4"/></svg>
+          <h3>Care</h3>
+          <p>Shea and olive oil formulas in plain packaging.</p>
+          <span class="tile-foot">2 items</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured -->
+  <section class="section" id="featured">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">This week</p>
+        <h2>Picked for the shelf.</h2>
+      </div>
+      <div class="grid-4 reveal" data-grid data-limit="4"></div>
+      <div style="margin-top:44px">
+        <a class="link-arrow" href="products.html">
+          View all products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promise -->
+  <section class="section section-alt" id="promise">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">How we work</p>
+        <h2>Simple terms, kept.</h2>
+      </div>
+      <div class="grid-3">
+        <div class="tile reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+          <h3>Same day in Nairobi</h3>
+          <p>Orders placed before 2pm arrive the same evening. Countrywide courier takes two days.</p>
+          <span class="tile-foot">Delivery</span>
+        </div>
+        <div class="tile reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/><path d="M7 15h4"/></svg>
+          <h3>Pay on delivery or M-PESA</h3>
+          <p>Till number, card or cash at the door. No account needed to check out.</p>
+          <span class="tile-foot">Payment</span>
+        </div>
+        <div class="tile reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 7.8 8 9 4.8-1.2 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <h3>Fourteen day returns</h3>
+          <p>Unopened goods go back for a full refund. Bring the receipt or the order number.</p>
+          <span class="tile-foot">Returns</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit -->
+  <section class="section" id="visit">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">The store</p>
+        <h2>Kilimani, off Argwings Kodhek.</h2>
+        <p class="lede" style="margin-top:16px">Open Monday to Saturday, 9am to 7pm. Sunday, 10am to 4pm. Come and handle the goods before you buy.</p>
+        <div class="hero-actions">
+          <a class="btn" href="contact.html">Get in touch</a>
+          <a class="btn btn-ghost" href="signup.html">Create account</a>
+        </div>
+      </div>
+      <div class="hero-figure reveal" style="aspect-ratio:1/1">
+        <img src="assets/products/basket.jpg" alt="Woven sisal basket on the shop shelf">
+        <div class="hero-tag">Ground floor, Amboseli Court</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Sokoni<span>.</span></a>
+        <p>A small Nairobi store for everyday goods, stocked with care and priced plainly.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Shop</h3>
+        <a href="products.html">All products</a>
+        <a href="products.html">Home</a>
+        <a href="products.html">Pantry</a>
+        <a href="products.html">Care</a>
+      </div>
+      <div class="footer-col">
+        <h3>Store</h3>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#find">Find us</a>
+        <a href="contact.html#hours">Opening hours</a>
+      </div>
+      <div class="footer-col">
+        <h3>Account</h3>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign up</a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>&copy; 2026 Sokoni Retail Ltd, Nairobi</span>
+      <span>Product photography via Wikimedia Commons</span>
+      <span>Prices in Kenyan Shillings</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" data-overlay></div>
+
+<aside class="drawer" data-drawer aria-label="Shopping bag">
+  <div class="drawer-head">
+    <h2>Your bag</h2>
+    <button class="icon-btn" data-cart-close aria-label="Close bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body" data-cart-body></div>
+  <div class="drawer-foot">
+    <div class="total-row">
+      <span>Total</span>
+      <span data-cart-total>KSh 0</span>
+    </div>
+    <button class="btn btn-block" type="button">Checkout</button>
+    <p class="note">Delivery calculated at checkout.</p>
+  </div>
+</aside>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>

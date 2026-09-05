@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Products | Sokoni</title>
+<meta name="description" content="Home, pantry, carry and care goods stocked at Sokoni, Nairobi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Sokoni<span>.</span></a>
+
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <button class="icon-btn menu-toggle" data-menu aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <button class="icon-btn" data-cart-open aria-label="Bag">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 7h12l1.2 12.2a1.5 1.5 0 0 1-1.5 1.8H6.3a1.5 1.5 0 0 1-1.5-1.8L6 7Z"/>
+          <path d="M9 10V6.5a3 3 0 0 1 6 0V10"/>
+        </svg>
+        <span class="count" data-cart-count hidden>0</span>
+      </button>
+      <a class="icon-btn" href="login.html" aria-label="Account">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8.5" r="3.5"/>
+          <path d="M4.5 20a7.5 7.5 0 0 1 15 0"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap page-head">
+    <p class="eyebrow">Thirteen items in stock</p>
+    <h1>Products</h1>
+    <p class="lede">Everything we carry, on one page. Prices include VAT.</p>
+  </div>
+
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="search-bar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/>
+      </svg>
+      <input type="search" data-search placeholder="Search products" aria-label="Search products" autocomplete="off">
+    </div>
+
+    <div class="grid-4" data-grid></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Sokoni<span>.</span></a>
+        <p>A small Nairobi store for everyday goods, stocked with care and priced plainly.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Shop</h3>
+        <a href="products.html">All products</a>
+        <a href="products.html">Home</a>
+        <a href="products.html">Pantry</a>
+        <a href="products.html">Care</a>
+      </div>
+      <div class="footer-col">
+        <h3>Store</h3>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html#find">Find us</a>
+        <a href="contact.html#hours">Opening hours</a>
+      </div>
+      <div class="footer-col">
+        <h3>Account</h3>
+        <a href="login.html">Log in</a>
+        <a href="signup.html">Sign up</a>
+      </div>
+    </div>
+    <div class="footer-bar">
+      <span>&copy; 2026 Sokoni Retail Ltd, Nairobi</span>
+      <span>Product photography via Wikimedia Commons</span>
+      <span>Prices in Kenyan Shillings</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" data-overlay></div>
+
+<aside class="drawer" data-drawer aria-label="Shopping bag">
+  <div class="drawer-head">
+    <h2>Your bag</h2>
+    <button class="icon-btn" data-cart-close aria-label="Close bag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </div>
+  <div class="drawer-body" data-cart-body></div>
+  <div class="drawer-foot">
+    <div class="total-row">
+      <span>Total</span>
+      <span data-cart-total>KSh 0</span>
+    </div>
+    <button class="btn btn-block" type="button">Checkout</button>
+    <p class="note">Delivery calculated at checkout.</p>
+  </div>
+</aside>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
